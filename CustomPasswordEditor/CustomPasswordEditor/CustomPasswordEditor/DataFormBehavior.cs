@@ -32,7 +32,7 @@ namespace CustomPasswordEditor
         public PasswordEditor(SfDataForm dataForm) : base(dataForm)
         {
         }
-        protected override CustomPasswordEntry OnCreateEditorView()
+        protected override CustomPasswordEntry OnCreateEditorView(DataFormItem dataFormItem)
         {
             return new CustomPasswordEntry();
         }
